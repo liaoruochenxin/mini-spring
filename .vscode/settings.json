@@ -1,0 +1,12 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.maven.downloadSources": true,
+    "java.jdt.ls.java.home": "C:\\Users\\EDY\\.jdks\\jdk21",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Users\\EDY\\.jdks\\jdk21",
+            "default": true
+        }
+    ]
+}
