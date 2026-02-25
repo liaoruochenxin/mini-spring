@@ -39,7 +39,7 @@ public class ClassPathUtils {
         // 从Thread.currentThread().getContextClassLoader()可以获取到Servlet容器的专属ClassLoader
         cl = Thread.currentThread().getContextClassLoader();
         if (cl == null) {
-            cl = getClass().getClassLoader();
+            cl = ClassPathUtils.class.getClassLoader();
         }
         return cl;
     }
